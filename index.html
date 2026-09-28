@@ -1,15 +1,47 @@
 <!DOCTYPE html>
 
-<head><script src="ex1.js">   </script></head>
+<html>
+<head>
+    <script src="ex1.js"></script>
+</head>
+
 <body>
-     <p>
 
+    <h3>Ex 1</h3>
+
+    <p>
         Find the sum of all the multiples of 3 or 5 below 1000.
-
     </p>
 
-    <button onclick="calculateSum()">Calculate</button>
-    <div id="result"></div>
-</body>
+    <button onclick="ex1()">Calculate Ex 1</button>
 
+    <div id="ex1Result"></div>
+
+
+    <h3>Ex 2 / Ex 2.1</h3>
+
+    <p>
+        Find the sum of all the multiples of a or b below n.
+    </p>
+
+    <label>a:</label>
+    <input type="number" id="a">
+
+    <br><br>
+
+    <label>b:</label>
+    <input type="number" id="b">
+
+    <br><br>
+
+    <label>n:</label>
+    <input type="number" id="n">
+
+    <br><br>
+
+    <button onclick="calculate()">Calculate</button>
+
+    <div id="result"></div>
+
+</body>
 </html>
