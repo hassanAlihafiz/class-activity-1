@@ -15,7 +15,15 @@ function calculateSum(a, b, n) {
     return sum;
 
 }
+function ex1() {
 
+    let result = calculateSum(3, 5, 1000);
+
+    document.getElementById("ex1Result").innerHTML =
+
+        "The sum is: " + result;
+
+}
 function calculate() {
 
     let a = Number(document.getElementById("a").value);
