@@ -5,6 +5,6 @@ function calculateSum(){
          sum += i;
 
      }
+  }
     document.getElementById("result").innerHTML = "The sum is: " + sum;
-}
 }
