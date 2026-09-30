@@ -10,5 +10,5 @@ function showTotal() {
       const basket = { apples: 3, bananas: 2 };
       const prices = { apples: 5, bananas: 2 };
       const total = totalCost(basket, prices);
-      document.getElementById("result").textContent = "Total: " + total;
+      document.getElementById("result6").textContent = "Total: " + total;
 }
