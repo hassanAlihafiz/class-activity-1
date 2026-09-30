@@ -1,3 +1,5 @@
+//add ability for currency exchange
+
 function totalCost(basket, prices) {
   let total = 0;
   for (const product of Object.keys(basket)) {
